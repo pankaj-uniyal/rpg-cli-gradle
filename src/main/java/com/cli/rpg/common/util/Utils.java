@@ -13,7 +13,7 @@ public class Utils {
     private static String currentToken = null;
     private static StringTokenizer reader;
 	
-	private Utils() {
+	public Utils() {
     }
 
     public static <E> Optional<E> promptForElement(Collection<E> collection) {
