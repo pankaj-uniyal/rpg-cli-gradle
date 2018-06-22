@@ -16,3 +16,14 @@ dependencies {
     testCompile group: 'org.mockito', name: 'mockito-core', version: '2.17.0'
     testCompile group: 'org.powermock', name: 'powermock-api-mockito', version: '1.7.3'
 }
+
+jar {
+    manifest {
+        attributes(
+            'Built-By'       : "Pankaj Uniyal",
+            'Created-By'     : "Gradle",
+            'Build-Jdk'      : "1.8",
+            'Main-Class'     : "com.cli.rpg.base.Executor"
+        )
+    }
+}

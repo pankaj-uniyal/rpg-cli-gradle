@@ -1,2 +1,6 @@
 Manifest-Version: 1.0
+Built-By: Pankaj Uniyal
+Created-By: Gradle
+Build-Jdk: 1.8
+Main-Class: com.cli.rpg.base.Executor
 
