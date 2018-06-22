@@ -1,5 +1,6 @@
 # rpg-cli-gradle
 
+//This game is build for command line using java 1.8.
 
 <B>This game has following functionalities:</B><BR>
 A player can create a character<BR>
@@ -21,6 +22,7 @@ build.gradle
 
 //run the application<BR>
 cd build/libs<BR>
-java -jar rpg-cli-gradle-1.0-SNAPSHOT.jar
+java -jar rpg-cli-gradle-1.0-SNAPSHOT.jar<BR>
+
   
   
